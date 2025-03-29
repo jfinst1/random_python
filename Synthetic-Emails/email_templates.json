@@ -1,0 +1,611 @@
+{
+    "business": [
+      {
+        "subject": "Thank You for Your Business",
+        "content": "Dear {name},\n\nThank you for your recent purchase. We appreciate your business and hope you are satisfied with your order.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "signature"]
+      },
+      {
+        "subject": "Your Invoice for {item}",
+        "content": "Hello {name},\n\nPlease find the attached invoice {invoice_number} for {item}. We appreciate your prompt payment.\n\nSincerely,\n{signature}\n",
+        "placeholders": ["name", "item", "invoice_number", "signature"]
+      },
+      {
+        "subject": "Payment Reminder: Invoice {invoice_number}",
+        "content": "Dear {name},\n\nThis is a reminder that your payment for invoice {invoice_number} is still outstanding. Please make the payment at your earliest convenience.\n\nBest regards,\nFinance Team\n",
+        "placeholders": ["name", "invoice_number"]
+      },
+      {
+        "subject": "Thank You for Your Order",
+        "content": "Hi {name},\n\nWe have received your order {order_number}. Thank you for shopping with us. We will notify you once your items are shipped.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "order_number", "signature"]
+      },
+      {
+        "subject": "Invoice Reminder: {invoice_number}",
+        "content": "Dear {name},\n\nThis is a reminder that your payment for invoice {invoice_number} is due. Please ensure timely payment to avoid any penalties.\n\nBest regards,\nFinance Department\n",
+        "placeholders": ["name", "invoice_number"]
+      },
+      {
+        "subject": "Welcome to Our Service, {name}!",
+        "content": "Hi {name},\n\nWelcome to our service! We are excited to have you on board and look forward to serving you.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "signature"]
+      },
+      {
+        "subject": "Your Subscription Confirmation",
+        "content": "Dear {name},\n\nThank you for subscribing to our service. We are thrilled to have you with us.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Invoice Notification: {item}",
+        "content": "Dear {name},\n\nWe have issued an invoice {invoice_number} for your purchase of {item}. Please review the attached document and complete the payment by {due_date}.\n\nBest regards,\nFinance Team\n",
+        "placeholders": ["name", "invoice_number", "item", "due_date"]
+      },
+      {
+        "subject": "Thank You for Your Feedback",
+        "content": "Dear {name},\n\nThank you for providing your feedback. We appreciate your input and will use it to improve our services.\n\nBest,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Update Your Account Information",
+        "content": "Dear {name},\n\nPlease update your account information to avoid any disruptions in service.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Account Notification: {item}",
+        "content": "Dear {name},\n\nWe have an update regarding your account for {item}. Please review the attached details.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "item", "signature"]
+      },
+      {
+        "subject": "Order Confirmation: {order_number}",
+        "content": "Hello {name},\n\nYour order {order_number} has been confirmed. We will notify you once it is shipped.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "order_number", "signature"]
+      },
+      {
+        "subject": "Billing Statement: {invoice_number}",
+        "content": "Hi {name},\n\nYour billing statement for invoice {invoice_number} is ready. Please review and make the payment at your earliest convenience.\n\nBest,\nFinance Department\n",
+        "placeholders": ["name", "invoice_number"]
+      },
+      {
+        "subject": "Service Update for {item}",
+        "content": "Dear {name},\n\nWe have an important update regarding your service for {item}. Please review the attached document.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "item", "signature"]
+      },
+      {
+        "subject": "Subscription Renewal Notice",
+        "content": "Hi {name},\n\nYour subscription is due for renewal. Please review the details and renew at your earliest convenience.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Service Confirmation: {item}",
+        "content": "Dear {name},\n\nThis is a confirmation of your service for {item}. If you have any questions, please contact our support team.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "item", "signature"]
+      },
+      {
+        "subject": "Account Verification Needed",
+        "content": "Hello {name},\n\nWe need to verify your account information. Please click the link below to complete the verification process.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Important Notice: {item}",
+        "content": "Dear {name},\n\nWe have an important notice regarding {item}. Please review the attached document for details.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "item", "signature"]
+      },
+      {
+        "subject": "Service Disruption Notice",
+        "content": "Dear {name},\n\nWe apologize for the inconvenience, but there will be a temporary disruption in your service. Please see the attached document for more details.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Order Shipment Confirmation",
+        "content": "Hello {name},\n\nYour order {order_number} has been shipped. You can track your shipment using the attached tracking number.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "order_number", "signature"]
+      },
+      {
+        "subject": "Invoice Due: {invoice_number}",
+        "content": "Dear {name},\n\nYour invoice {invoice_number} is due. Please make the payment to avoid any late fees.\n\nBest regards,\nFinance Department\n",
+        "placeholders": ["name", "invoice_number"]
+      },
+      {
+        "subject": "Account Activation",
+        "content": "Hi {name},\n\nYour account has been successfully activated. Welcome to our service!\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "signature"]
+      },
+      {
+        "subject": "Order Cancelled: {order_number}",
+        "content": "Dear {name},\n\nWe regret to inform you that your order {order_number} has been cancelled. Please contact our support team for further assistance.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "order_number", "signature"]
+      },
+      {
+        "subject": "Service Renewal Confirmation",
+        "content": "Hi {name},\n\nYour service has been successfully renewed. Thank you for continuing with us.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Account Review Needed",
+        "content": "Dear {name},\n\nPlease review your account information and update it as necessary.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Subscription Update for {item}",
+        "content": "Hello {name},\n\nThere has been an update to your subscription for {item}. Please review the attached document.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "item", "signature"]
+      },
+      {
+        "subject": "Service Upgrade Notification",
+        "content": "Hi {name},\n\nWe are pleased to inform you that your service has been upgraded. Please review the details in the attached document.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Account Status Update",
+        "content": "Dear {name},\n\nWe have an update regarding the status of your account. Please review the attached document for more information.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "signature"]
+      },
+      {
+        "subject": "Service Downgrade Notice",
+        "content": "Dear {name},\n\nWe regret to inform you that your service has been downgraded. Please contact our support team for more details.\n\nBest regards,\nCustomer Support\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Payment Confirmation: {invoice_number}",
+        "content": "Hi {name},\n\nWe have received your payment for invoice {invoice_number}. Thank you!\n\nBest regards,\nFinance Department\n",
+        "placeholders": ["name", "invoice_number"]
+      }
+    ],
+    "promotion": [
+      {
+        "subject": "Limited Time Offer: Save {discount}%",
+        "content": "Hello {name},\n\nDon't miss out on our limited time offer. Save {discount}% on your next purchase with code: {promo_code}. Shop now!\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Exclusive Promo Code: {promo_code}",
+        "content": "Hi {name},\n\nUse the exclusive promo code {promo_code} to save {discount}% on your next purchase. Shop now and save!\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Special Discount for You, {name}",
+        "content": "Dear {name},\n\nWe are offering you a special discount of {discount}% on your next order. Use code: {promo_code} at checkout to save.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Flash Sale: {discount}% Off!",
+        "content": "Dear {name},\n\nFor a limited time only, enjoy {discount}% off on selected items. Use code: {promo_code} at checkout. Hurry, the offer ends soon!\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Savings for {name}",
+        "content": "Hi {name},\n\nWe have an exclusive offer just for you. Save {discount}% on your next purchase with code: {promo_code}. Thank you for being a loyal customer.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Special Promotion Just for You!",
+        "content": "Dear {name},\n\nWe are excited to offer you an exclusive promotion. Enjoy {discount}% off on your next purchase. Use code: {promo_code} at checkout.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Limited Time Promotion: {discount}% Off",
+        "content": "Hi {name},\n\nTake advantage of our limited time promotion and save {discount}% on your next order. Use code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Offer for {name}",
+        "content": "Hi {name},\n\nAs a valued customer, we are offering you a special discount of {discount}% on your next order. Use code: {promo_code}.\n\nBest,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Save {discount}% with Code: {promo_code}",
+        "content": "Hello {name},\n\nEnjoy a special discount of {discount}% on your next purchase. Use code: {promo_code} at checkout. Don't miss out!\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Limited Time Offer: Save Big!",
+        "content": "Dear {name},\n\nDon't miss out on our limited time offer. Save big on your next purchase with code: {promo_code}. Shop now!\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "promo_code", "signature"]
+      },
+      {
+        "subject": "Exclusive Deal: Save {discount}%",
+        "content": "Hi {name},\n\nTake advantage of our exclusive deal and save {discount}% on your next order. Use code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Savings Event: {discount}% Off",
+        "content": "Dear {name},\n\nJoin our special savings event and enjoy {discount}% off your next purchase. Use code: {promo_code} at checkout.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Limited Offer: {discount}% Discount",
+        "content": "Hello {name},\n\nWe are offering a limited-time discount of {discount}% on your next purchase. Use code: {promo_code} to redeem.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Promotion: Save {discount}%",
+        "content": "Hi {name},\n\nDon't miss our exclusive promotion and save {discount}% on your next order. Use code: {promo_code} at checkout.\n\nBest,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Offer: {discount}% Off",
+        "content": "Dear {name},\n\nTake advantage of our special offer and get {discount}% off your next purchase. Use code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Savings Code: {promo_code}",
+        "content": "Hi {name},\n\nSave {discount}% on your next order with this exclusive code: {promo_code}. Don't miss out!\n\nBest,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Save Big with Code: {promo_code}",
+        "content": "Dear {name},\n\nUse code: {promo_code} to save {discount}% on your next purchase. Shop now and save!\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Exclusive Discount Code: {promo_code}",
+        "content": "Hi {name},\n\nEnjoy an exclusive discount of {discount}% with code: {promo_code}. Shop now!\n\nBest,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Limited Time Offer: {discount}% Off",
+        "content": "Dear {name},\n\nHurry up! Take advantage of our special limited time offer and save {discount}% on your next order. Use code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Offer: Save {discount}%",
+        "content": "Hi {name},\n\nWe have an exclusive offer for you. Save {discount}% on your next purchase with code: {promo_code}.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Flash Discount: {discount}% Off",
+        "content": "Dear {name},\n\nTake advantage of our flash discount and save {discount}% on your next purchase. Use code: {promo_code} at checkout.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Offer Code: {promo_code}",
+        "content": "Hello {name},\n\nUse code: {promo_code} to get {discount}% off your next purchase. Don't miss out!\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Exclusive Savings Event: Save {discount}%",
+        "content": "Hi {name},\n\nJoin our exclusive savings event and enjoy {discount}% off your next purchase. Use code: {promo_code}.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Special Savings for You: {discount}% Off",
+        "content": "Dear {name},\n\nWe are offering a special savings of {discount}% on your next order. Use code: {promo_code} at checkout.\n\nBest,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Limited Time Discount: {discount}% Off",
+        "content": "Hello {name},\n\nDon't miss out on our limited time discount of {discount}% on your next purchase. Use code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Promo Code: {promo_code}",
+        "content": "Hi {name},\n\nUse promo code {promo_code} to save {discount}% on your next order. Shop now and save!\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Exclusive Limited Time Offer: Save {discount}%",
+        "content": "Dear {name},\n\nEnjoy our exclusive limited time offer and save {discount}% on your next purchase with code: {promo_code}.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Flash Sale Alert: {discount}% Off",
+        "content": "Hi {name},\n\nDon't miss our flash sale and save {discount}% on your next order. Use code: {promo_code} at checkout.\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      },
+      {
+        "subject": "Special Offer for You: {discount}% Discount",
+        "content": "Dear {name},\n\nWe are excited to offer you a special discount of {discount}% on your next purchase. Use code: {promo_code} to save.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "discount", "promo_code", "signature"]
+      },
+      {
+        "subject": "Exclusive Deal Alert: {discount}% Off",
+        "content": "Hello {name},\n\nEnjoy an exclusive deal of {discount}% off your next order with code: {promo_code}. Shop now!\n\nBest regards,\n{company}\n",
+        "placeholders": ["name", "discount", "promo_code", "company"]
+      }
+    ],
+    "meeting": [
+      {
+        "subject": "Meeting Reminder: {topic}",
+        "content": "Hi {name},\n\nThis is a reminder for our upcoming meeting about {topic}. Please be prepared with your updates and any relevant materials.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Brainstorming Session: {topic}",
+        "content": "Hello {name},\n\nWe will have a brainstorming session on {topic} on {meeting_date} at {meeting_time}. Please come with your creative ideas.\n\nThanks,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "meeting_time", "signature"]
+      },
+      {
+        "subject": "Project Kickoff: {project_name}",
+        "content": "Hi Everyone,\n\nWe are excited to start the project {project_name}. The kickoff meeting is scheduled for {meeting_date}. Please come prepared with your initial thoughts and ideas.\n\nBest,\n{signature}\n",
+        "placeholders": ["project_name", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Follow-up Meeting: {topic}",
+        "content": "Dear {name},\n\nThis is a follow-up meeting on {topic}. Please be ready to present your updates and findings.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Urgent Meeting: {topic}",
+        "content": "Hi Team,\n\nWe need to have an urgent meeting regarding {topic}. Please be available at {meeting_time} on {meeting_date}.\n\nThanks,\n{signature}\n",
+        "placeholders": ["topic", "meeting_time", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Weekly Sync: {topic}",
+        "content": "Hello {name},\n\nThis is a reminder for our weekly sync on {topic}. The meeting will be held on {meeting_date} at {meeting_time}. Please make sure to update the progress on your tasks.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "meeting_time", "signature"]
+      },
+      {
+        "subject": "Monthly Review: {topic}",
+        "content": "Dear Team,\n\nOur monthly review meeting is scheduled for {meeting_date}. We will discuss the progress of {topic}.\n\nRegards,\n{signature}\n",
+        "placeholders": ["topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Meeting Notice: {topic}",
+        "content": "Dear {name},\n\nPlease be informed that there will be a meeting on {meeting_date} regarding {topic}. Your presence is highly appreciated.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "meeting_date", "topic", "signature"]
+      },
+      {
+        "subject": "Team Meeting: {topic}",
+        "content": "Hi {name},\n\nWe will be having a team meeting to discuss {topic}. Please make sure to complete your tasks before the meeting.\n\nThanks,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Discussion on {topic}",
+        "content": "Hello Team,\n\nWe will be having a discussion on {topic} during our next meeting. Please ensure to complete your tasks before the meeting.\n\nThanks,\n{signature}\n",
+        "placeholders": ["topic", "signature"]
+      },
+      {
+        "subject": "Schedule Meeting: {topic}",
+        "content": "Dear {name},\n\nWe need to schedule a meeting to discuss {topic}. Please let me know your availability.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Project Update Meeting: {topic}",
+        "content": "Hi {name},\n\nWe will have a project update meeting on {topic} on {meeting_date}. Please be prepared with your updates.\n\nBest,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Team Sync: {topic}",
+        "content": "Hello {name},\n\nThis is a reminder for our team sync on {topic}. The meeting will be held on {meeting_date} at {meeting_time}. Please make sure to complete your tasks.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "meeting_time", "signature"]
+      },
+      {
+        "subject": "Project Discussion: {topic}",
+        "content": "Dear {name},\n\nWe need to have a discussion on {topic}. Please be available at {meeting_time} on {meeting_date}.\n\nThanks,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_time", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Strategy Meeting: {topic}",
+        "content": "Hi {name},\n\nWe will have a strategy meeting on {topic} on {meeting_date}. Please come with your ideas and suggestions.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Planning Meeting: {topic}",
+        "content": "Hello {name},\n\nWe will have a planning meeting on {topic}. Please be prepared with your plans and strategies.\n\nThanks,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Review Meeting: {topic}",
+        "content": "Dear {name},\n\nWe will have a review meeting on {topic} on {meeting_date}. Please be ready with your updates.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Discussion on Project: {project_name}",
+        "content": "Hi Team,\n\nWe will have a discussion on the project {project_name}. Please be available for the meeting.\n\nBest,\n{signature}\n",
+        "placeholders": ["project_name", "signature"]
+      },
+      {
+        "subject": "Important Meeting: {topic}",
+        "content": "Hello {name},\n\nWe need to have an important meeting regarding {topic}. Please be available at {meeting_time} on {meeting_date}.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_time", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Team Brainstorming: {topic}",
+        "content": "Dear {name},\n\nWe will have a team brainstorming session on {topic} on {meeting_date}. Please come with your creative ideas.\n\nThanks,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Client Meeting: {topic}",
+        "content": "Hi {name},\n\nWe will have a client meeting to discuss {topic}. Please make sure to complete your tasks before the meeting.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Project Review: {project_name}",
+        "content": "Dear {name},\n\nWe will have a project review meeting for {project_name} on {meeting_date}. Please be prepared with your updates.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "project_name", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Staff Meeting: {topic}",
+        "content": "Hi {name},\n\nThis is a reminder for our staff meeting on {topic}. The meeting will be held on {meeting_date} at {meeting_time}. Please be on time.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "meeting_time", "signature"]
+      },
+      {
+        "subject": "Department Meeting: {topic}",
+        "content": "Dear {name},\n\nWe will have a department meeting regarding {topic}. Please be available at {meeting_time} on {meeting_date}.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_time", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Project Planning: {project_name}",
+        "content": "Hi {name},\n\nWe will have a project planning meeting for {project_name}. Please come with your plans and ideas.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "project_name", "signature"]
+      },
+      {
+        "subject": "Team Update: {topic}",
+        "content": "Hello {name},\n\nWe will have a team update meeting on {topic}. The meeting will be held on {meeting_date} at {meeting_time}. Please make sure to update your progress.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "meeting_time", "signature"]
+      },
+      {
+        "subject": "Review Session: {topic}",
+        "content": "Dear {name},\n\nWe will have a review session on {topic} on {meeting_date}. Please be prepared with your updates.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "meeting_date", "signature"]
+      },
+      {
+        "subject": "Important Discussion: {topic}",
+        "content": "Hi {name},\n\nWe need to have an important discussion regarding {topic}. Please be available for the meeting.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      },
+      {
+        "subject": "Meeting Schedule: {topic}",
+        "content": "Dear {name},\n\nWe need to schedule a meeting to discuss {topic}. Please let me know your availability.\n\nBest regards,\n{signature}\n",
+        "placeholders": ["name", "topic", "signature"]
+      }
+    ],
+    "fraudulent": [
+      {
+        "subject": "Action Required: Verify Your Account",
+        "content": "Dear {name},\n\nPlease verify your account information to avoid any disruptions in service. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Urgent: Verify Your Billing Information",
+        "content": "Dear {name},\n\nPlease verify your billing information to continue using our services. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Immediate Action Needed: Verify Your Payment",
+        "content": "Dear {name},\n\nWe need you to verify your payment information immediately to prevent any service interruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Update Your Account Information",
+        "content": "Dear {name},\n\nPlease update your account information to avoid any disruptions in service. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Important: Update Your Billing Information",
+        "content": "Dear {name},\n\nTo continue using our services, please update your billing information. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Verify Your Payment Information Now",
+        "content": "Dear {name},\n\nPlease verify your payment information to ensure continued access to our services. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Action Required: Confirm Your Payment Information",
+        "content": "Dear {name},\n\nPlease confirm your payment information to avoid any service interruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Security Alert: Confirm Your Account",
+        "content": "Dear {name},\n\nWe have detected unusual activity on your account. Please confirm your account information to secure your account.\n\nBest regards,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Important: Verify Your Account Details",
+        "content": "Dear {name},\n\nTo ensure the security of your account, please verify your account details. Click the link below to update your information.\n\nThank you,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Urgent: Update Your Payment Information",
+        "content": "Dear {name},\n\nPlease update your payment information to avoid service interruption.\n\nSincerely,\nBilling Department\nService Inc.\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Verify Your Identity",
+        "content": "Dear {name},\n\nTo ensure the security of your account, please verify your identity. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Confirm Your Account Information",
+        "content": "Dear {name},\n\nWe need you to confirm your account information to avoid any service disruptions. Click the link below to update your details.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Action Needed: Verify Your Billing Information",
+        "content": "Dear {name},\n\nPlease verify your billing information to continue using our services. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Urgent: Confirm Your Payment Information",
+        "content": "Dear {name},\n\nWe need you to confirm your payment information immediately to prevent any service interruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Security Alert: Verify Your Account",
+        "content": "Dear {name},\n\nWe have detected unusual activity on your account. Please verify your account information to secure your account.\n\nBest regards,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Important: Update Your Account Details",
+        "content": "Dear {name},\n\nTo ensure the security of your account, please update your account details. Click the link below to proceed.\n\nThank you,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Verify Your Payment Information",
+        "content": "Dear {name},\n\nPlease verify your payment information to ensure continued access to our services. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Confirm Your Identity",
+        "content": "Dear {name},\n\nTo ensure the security of your account, please confirm your identity. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Immediate Action Needed: Verify Your Account",
+        "content": "Dear {name},\n\nWe need you to verify your account information immediately to prevent any service interruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Update Your Account Details",
+        "content": "Dear {name},\n\nPlease update your account details to avoid any disruptions in service. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Important: Verify Your Identity",
+        "content": "Dear {name},\n\nTo ensure the security of your account, please verify your identity. Click the link below to proceed.\n\nThank you,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Action Required: Update Your Payment Information",
+        "content": "Dear {name},\n\nPlease update your payment information to avoid any service disruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Verify Your Account Information Now",
+        "content": "Dear {name},\n\nPlease verify your account information now to avoid any disruptions in service. Click the link below to proceed.\n\nBest regards,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Confirm Your Billing Information",
+        "content": "Dear {name},\n\nWe need you to confirm your billing information immediately to prevent any service interruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Security Alert: Update Your Account Information",
+        "content": "Dear {name},\n\nWe have detected unusual activity on your account. Please update your account information to secure your account.\n\nBest regards,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Update Your Payment Information Now",
+        "content": "Dear {name},\n\nPlease update your payment information now to avoid any service disruptions. Click the link below to proceed.\n\nBest regards,\nBilling Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Action Needed: Confirm Your Account",
+        "content": "Dear {name},\n\nPlease confirm your account information to avoid any service disruptions. Click the link below to update your details.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Verify Your Account Details",
+        "content": "Dear {name},\n\nPlease verify your account details to ensure continued access to our services. Click the link below to update your information.\n\nThank you,\nSupport Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Confirm Your Payment Information Now",
+        "content": "Dear {name},\n\nPlease confirm your payment information now to avoid any service disruptions. Click the link below to proceed.\n\nBest regards,\nBilling Department\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Security Update: Verify Your Account",
+        "content": "Dear {name},\n\nWe have detected unusual activity on your account. Please verify your account information to secure your account.\n\nBest regards,\nSecurity Team\n",
+        "placeholders": ["name"]
+      },
+      {
+        "subject": "Update Your Billing Information",
+        "content": "Dear {name},\n\nTo continue using our services, please update your billing information. Click the link below to update your details.\n\nThank you,\nBilling Team\n",
+        "placeholders": ["name"]
+      }
+    ]
+  }
+  
